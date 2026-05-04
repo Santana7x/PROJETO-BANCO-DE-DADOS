@@ -1,0 +1,134 @@
+@charset 'UTF-8';
+@font-face {
+  font-family: 'fonte';
+src: url("Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'fonte', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background: #58014de1;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  img#logo {
+    display: block;
+    width: 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+  a {
+    text-decoration: none;
+    color:#f8f9fa;
+    display: block;
+  }
+
+  .banner .btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #ffffff;
+  
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  a{
+
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #ffffff;
+    color:#58014de1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  nav ul {
+    list-style: none;
+    gap: 1.5rem;
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+  }
+
+  .banner {
+    
+    text-align: center;
+    padding: 5rem 2rem;
+    color: whitesmoke;
+    background-color: #58014de1;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner .btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #ffffff;
+    color: #58014de1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #58014de1;
+    color: whitesmoke;
+  }
+
+.funcoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sobre {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+  
+  .sobre h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+.etapa {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+  
+  .etapa:hover {
+    transform: translateY(-5px);
+  }
+
