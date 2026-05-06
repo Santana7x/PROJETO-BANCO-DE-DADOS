@@ -209,3 +209,47 @@ body {
   box-shadow: 0 0 10px rgba(88, 1, 77, 0.6);
   transform: translateY(-3px);
 }
+
+/* VENDAS */
+
+.vendas {
+  margin-top: 1rem;
+    
+  width: 250px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.vendas ul{
+  margin: 30px;
+  justify-content: center;
+  margin-left: -2px;
+
+}
+
+.vendas .ulbtn{
+  display: inline-block;
+  padding: 1px 1px;
+  background: #ffffffe1;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.vendas .ulbtn:hover{
+  box-shadow: 0 0 10px rgba(88, 1, 77, 0.6);
+  transform: translateY(-3px);
+}
