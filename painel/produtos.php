@@ -20,7 +20,7 @@
     </header>
 
     <section class="cadastro">
-    <form action="(ARQUIVO-DO-PHP)" method="POST">
+    <form action="banco-de-dados/salvar_produto.php" method="POST">
   
   <ul><label for="nome">Nome do produto:</label>
   <input type="text" id="nome" name="nome"></ul>
@@ -34,6 +34,14 @@
   <ul class="ulbtn"><button type="submit">Cadastrar</button></ul>
 
     </form>
+
+    <?php
+
+    if(isset($_GET['sucesso'])){
+    echo "<p class='mensagem-sucesso'>Produto cadastrado com sucesso!</p>";
+        }
+
+    ?>
     </section>
 
 

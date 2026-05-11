@@ -4,20 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORGANIZA AÊ</title>
-    <link rel="stylesheet" type="text/css" href="ARQUIVO CSS"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 </head>
 <body>
     <header>
-        <img id="logo" src="imagens/Organizaaeee.png"> 
+        <a class="logoimg" href="/index.html">
+        <img id="logo" src="/imagens/Organizaaeee.png"> 
+        </a>
         <nav>
             <ul>
-                <li><a href="painel/painel.html">PAINEL</a></li>
+                <li><a href="painel.html">PAINEL</a></li>
                 
             </ul>
         </nav>
     </header>
 
+<section class="clientes">
+<form action="salvar_cliente.php" method="POST">
 
+  <ul><label>Nome:</label>
+  <input type="text" name="nome"></ul>
+
+  <ul><label>Telefone:</label>
+  <input type="text" name="telefone"></ul>
+
+  <ul><label>Email:</label>
+  <input type="email" name="email"></ul>
+
+ <ul class="ulbtn"><button type="submit">Cadastrar</button></ul>
+
+</form>
+</section>
 
 <footer>
     <p>&copy; 2026 OrganizaAê. Desenvolvido pela Baguga Team.</p>
