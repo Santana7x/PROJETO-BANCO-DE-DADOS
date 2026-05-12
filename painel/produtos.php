@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORGANIZA AÊ</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 </head>
 <body>
     <header>
-        <a class="logoimg" href="/index.html">
-        <img id="logo" src="/imagens/Organizaaeee.png"> 
+        <a class="logoimg" href="../index.html">
+        <img id="logo" src="../imagens/Organizaaeee.png"> 
         </a>
         <nav>
             <ul>
@@ -20,7 +20,7 @@
     </header>
 
     <section class="cadastro">
-    <form action="banco-de-dados/salvar_produto.php" method="POST">
+    <form action="../banco-de-dados/salvar_produto.php" method="POST">
   
   <ul><label for="nome">Nome do produto:</label>
   <input type="text" id="nome" name="nome"></ul>

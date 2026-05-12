@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORGANIZA AÊ</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 </head>
 <body>
     <header>
-        <a class="logoimg" href="/index.html">
-        <img id="logo" src="/imagens/Organizaaeee.png"> 
+        <a class="logoimg" href="../index.html">
+        <img id="logo" src="../imagens/Organizaaeee.png"> 
         </a>
         <nav>
             <ul>
@@ -20,7 +20,7 @@
     </header>
 
 <section class="clientes">
-<form action="salvar_cliente.php" method="POST">
+<form action="../banco-de-dados/salvar_clientes.php" method="POST">
 
   <ul><label>Nome:</label>
   <input type="text" name="nome"></ul>
@@ -34,6 +34,15 @@
  <ul class="ulbtn"><button type="submit">Cadastrar</button></ul>
 
 </form>
+
+<?php
+
+if(isset($_GET['sucesso'])){
+    echo "<p class='mensagem-sucesso'>Cliente cadastrado com sucesso!</p>";
+}
+
+?>
+
 </section>
 
 <footer>
